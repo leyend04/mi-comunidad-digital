@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f8f9f6">
+  <meta name="description" content="Información, servicios y aprendizaje digital para los vecinos del barrio Tasajero en Cúcuta.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Mi Comunidad">
+  <link rel="icon" href="icons/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Mi Comunidad Digital · Tasajero</title>
+</head>
+<body>
+  <a class="salto" href="#contenido">Saltar al contenido</a>
+  <header class="encabezado">
+    <div class="contenedor encabezado-interior">
+      <a class="marca" href="#inicio" aria-label="Inicio de Mi Comunidad Digital"><span class="marca-simbolo" aria-hidden="true">m<span class="punto-marca">.</span></span><span class="marca-texto">Mi Comunidad<span>digital</span></span></a>
+      <div class="encabezado-acciones"><span class="ubicacion">Tasajero · Cúcuta</span><button type="button" id="boton-compartir" class="boton-icono" aria-label="Compartir página" title="Compartir"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.5 10.5 7-4M8.5 13.5l7 4"/></svg></button></div>
+    </div>
+  </header>
+  <main id="contenido" tabindex="-1"><div id="aplicacion"></div></main>
+  <footer class="pie"><div class="contenedor pie-interior"><div><strong>Mi Comunidad Digital</strong><p>Una iniciativa educativa para el barrio Tasajero.<br>Tecnología en Desarrollo de Software · Servicio Social Unadista.</p></div><button type="button" id="boton-instalacion-pie">Añadir a mi celular ↗</button></div></footer>
+  <nav class="navegacion-movil" aria-label="Accesos rápidos"><a href="#inicio" data-nav="inicio"><span aria-hidden="true">⌂</span>Inicio</a><a href="#contactos" data-nav="contactos"><span aria-hidden="true">☏</span>Contactos</a><a href="#aprende" data-nav="aprende"><span aria-hidden="true">▤</span>Aprende</a></nav>
+  <div id="notificacion" class="notificacion" role="status" aria-live="polite"></div>
+  <dialog id="dialogo-instalacion" class="dialogo"><div class="dialogo-interior"><button type="button" class="dialogo-cerrar" aria-label="Cerrar" data-cerrar-dialogo>×</button><span class="dialogo-icono" aria-hidden="true">↗</span><h2>Tu comunidad, a un toque</h2><p>Puedes añadir esta página a la pantalla de inicio de tu celular. No necesitas registrarte.</p><div class="instruccion-dispositivo"><strong>Android · Chrome</strong><p>Abre el menú ⋮ y elige «Instalar aplicación» o «Añadir a pantalla principal».</p></div><div class="instruccion-dispositivo"><strong>iPhone · Safari</strong><p>Toca «Compartir» y elige «Añadir a pantalla de inicio».</p></div><button id="instalar-ahora" class="boton-primario boton-ancho" type="button" hidden>Instalar ahora</button><button class="boton-secundario boton-ancho" data-cerrar-dialogo type="button">Entendido</button></div></dialog>
+  <script src="datos.js"></script>
+  <script src="aplicacion.js" defer></script>
+</body>
+</html>

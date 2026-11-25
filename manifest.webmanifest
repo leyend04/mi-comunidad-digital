@@ -1,0 +1,15 @@
+{
+  "name": "Mi Comunidad Digital - Tasajero",
+  "short_name": "Mi Comunidad",
+  "description": "Información y herramientas digitales para nuestra comunidad.",
+  "lang": "es-CO",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8f9f6",
+  "theme_color": "#f8f9f6",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
